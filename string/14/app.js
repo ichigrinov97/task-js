@@ -22,8 +22,7 @@ let b = +prompt('введите b');
 //     console.log('вы ввели не число');
     
 // }
-
-(!isNaN(a) && !isNaN(b)) ? 
+ 
 (a > b )? console.log(a) :
 (a < b) ? console.log(b) : 
 (a == b) ? console.log('числа равны'): console.log(null);
