@@ -6,7 +6,7 @@ let a = '5';
 
 
 for(let i = 0;  i<=a ;i++){
-    console.log(Math.round(Math.random() *99)+1);
+    console.log(Math.round(Math.random() *100));
     
 }
 
