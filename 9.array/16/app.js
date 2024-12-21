@@ -5,13 +5,14 @@
 //  Входные: 113355 → Результат: "1:1:3:3:5:5“
 
 
-let str = '55639217';
-
+let str = '55639217'.split('');
+let res = '';
 
 for(let i = 0; i<str.length;i++){
-    if(str[i]%2 !== 0 ){
-        str =(str[i] + ':');
-        console.log(str);
+    if(str[i]%2 == 0 ){
+        str[i]= str[i]+ ':';
+        res +=str[i];
+        
 
     }
-}
+}console.log(res);

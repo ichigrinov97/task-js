@@ -11,7 +11,7 @@ const b = '2';
 let str= '';
 
 for(let i = 0; i<b ;i++){
-    str = (a +' ').repeat(b)
+    str += a + ' '
     
     
 }console.log(str);
