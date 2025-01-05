@@ -9,19 +9,22 @@ const obj = {
 const str = 'name'
 const arrVal = Object.keys(obj)
 
-console.log(arrVal);
+console.log(arrVal.includes(str));
 
 
-const res = arrVal.some(function(el){
-    if(el == str){
-        return true;
+// console.log(arrVal);
+
+
+// const res = arrVal.some(function(el){
+//     if(el == str){
+//         return true;
         
-    }else{
-        return false;
+//     }else{
+//         return false;
         
-    }
-})
-console.log(res);
+//     }
+// })
+// console.log(res);
 
 
 

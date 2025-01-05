@@ -7,5 +7,8 @@ const obj = {
     age : 26 
 }
 
-const bool = obj.hasOwnProperty('name') 
+let val = 'age';
+
+
+const bool = obj.hasOwnProperty(val) 
 console.log(bool);

@@ -8,7 +8,7 @@ const obj = {
 };
 
 const arrVal = Object.values(obj)
-console.log(arrVal);
+
 
 let res = 0;
 

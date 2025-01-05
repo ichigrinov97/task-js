@@ -3,12 +3,16 @@
 
 const obj = { яблоко: 'красное', банан: 'желтый', апельсин: 'оранжевый' };
 
-const arrVal = Object.entries(obj);
+// const arrVal = Object.entries(obj);
 
-const resArr =[];
+// const resArr =[];
 
-for(let el of arrVal){
-    resArr.push(el.join(': '))
-}
+// for(let el of arrVal){
+//     resArr.push(el.join(': '))
+// }
 
-console.log(resArr);
+// console.log(resArr);
+
+
+console.log(Object.entries(obj));
+
