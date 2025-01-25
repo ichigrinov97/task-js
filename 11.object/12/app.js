@@ -6,16 +6,16 @@ const obj = {}
 
 const arr = []
 let result = 0;
-for(let i = 0; i< 4; i++){
+for (let i = 0; i < 4; i++) {
     let value = prompt()
     if (!isNaN(value)) {
         arr.push(value)
 
-        
+
     }
     result += +arr[i]
 
-    
+
 }
 obj.sum = result
 console.log(obj);

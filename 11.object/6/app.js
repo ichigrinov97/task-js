@@ -2,17 +2,17 @@
 //  Входные:{"x": 5, "y": 10, "z": "abc"} → Результат:{"x": 10, "y": 20, "z": "abc"}
 
 
-const obj ={
-    "x":5,
-    "y":10,
-    "z":"abc"
+const obj = {
+    "x": 5,
+    "y": 10,
+    "z": "abc"
 }
 
 
-for(let key in obj){
-    if(!isNaN(obj[key])){
-    obj[key] = obj[key]*2
-}
+for (let key in obj) {
+    if (!isNaN(obj[key])) {
+        obj[key] = obj[key] * 2
+    }
 }
 console.log(obj);
 
