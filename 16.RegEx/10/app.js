@@ -6,12 +6,14 @@
 
 
 
-const html = '<!-- hello world -->';
+let a = `<p>fd</p>
+    <!-- <h1>kdcvjikdj</h1> -->
+    <h5>bgvfc</h5>`;
 
-const comment = /^<!--[ \w\.\-\!\@\#\$\%\^\&\*\(\)\\+\*\\\/\,\{\}\`\~\'\"\:\;\?а-яА-Я]+-->$/gm;
+const comment = /<!--[ \<\>\w\.\-\!\@\#\$\%\^\&\*\(\)\\+\*\\\/\,\{\}\`\~\'\"\:\;\?а-яА-Я]+-->/gm;
 
 
 function replaceComment(){
-    return html.replaceAll(comment, '<!-- -->');
+    return a.replaceAll(comment, '');
 }
 console.log(replaceComment());
