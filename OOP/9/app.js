@@ -6,11 +6,11 @@
 class Time{
     
     convert(min){
-        let hour = Math.trunc(min/60);
+        let hour = Math.floor(min/60);
         let minutes = min % 60;
         return `${hour} часа ${minutes} минут`
     }
 }
 
 const time = new Time();
-console.log(time.convert(60));
+console.log(time.convert(150));
